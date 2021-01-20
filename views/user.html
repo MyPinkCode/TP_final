@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title> gestion des utilisateurs </title>
+</head>
+<body>
+    <header>
+        <h1>Users Database</h1>
+    </header>
+    <form action="/user/add" method="POST">
+        <fieldset>
+            <h3>Add new user</h3>
+            <label>last name</label>
+            <input type="text" id='nom' name="nom" required>
+            <br><br>
+            <label>first name</label>
+            <input type="text" id="prenom" name="prenom" required>
+            <br><br>
+            <label>login</label>
+            <input type="text" id="login" name="login" required>
+            <br><br>
+            <label>password</label>
+            <input type="text" id="mdp" name="mdp" required>
+            <br><br>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+
+    </body>
+</html>
